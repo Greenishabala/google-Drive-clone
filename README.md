@@ -1,10 +1,5 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/lie0cr3wESQ" target="_blank">
-      <img src="https://i.ibb.co/wR9G2k3/Readme-Thumbnail.png" alt="Project Banner">
-    </a>
-  <br />
-
+ 
   <div>
      <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
@@ -27,15 +22,6 @@
 6. 🔗 [Assets](#links)
 7. 🚀 [More](#more)
 
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube
-channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects
-like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/lie0cr3wESQ?si=yLQyhMrYLjpysnqE" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
@@ -43,8 +29,6 @@ A storage management and file sharing platform that lets users effortlessly uplo
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+**
 members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -90,12 +74,6 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/JavaScript-Mastery-Pro/storage_management_solution.git
-cd storage_management_solution
-```
 
 **Installation**
 
@@ -135,68 +113,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 <details>
 <summary><code>tailwind.config.ts</code></summary>
 
-```typescript
-import type { Config } from 'tailwindcss';
-
-const config: Config = {
-  darkMode: ['class'],
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      colors: {
-        brand: {
-          DEFAULT: '#FA7275',
-          100: '#EA6365',
-        },
-        red: '#FF7474',
-        error: '#b80000',
-        green: '#3DD9B3',
-        blue: '#56B8FF',
-        pink: '#EEA8FD',
-        orange: '#F9AB72',
-        light: {
-          100: '#333F4E',
-          200: '#A3B2C7',
-          300: '#F2F5F9',
-          400: '#F2F4F8',
-        },
-        dark: {
-          100: '#04050C',
-          200: '#131524',
-        },
-      },
-      fontFamily: {
-        poppins: ['var(--font-poppins)'],
-      },
-      boxShadow: {
-        'drop-1': '0px 10px 30px 0px rgba(66, 71, 97, 0.1)',
-        'drop-2': '0 8px 30px 0 rgba(65, 89, 214, 0.3)',
-        'drop-3': '0 8px 30px 0 rgba(65, 89, 214, 0.1)',
-      },
-      borderRadius: {
-        lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
-      },
-      keyframes: {
-        'caret-blink': {
-          '0%,70%,100%': { opacity: '1' },
-          '20%,50%': { opacity: '0' },
-        },
-      },
-      animation: {
-        'caret-blink': 'caret-blink 1.25s ease-out infinite',
-      },
-    },
-  },
-  plugins: [require('tailwindcss-animate')],
-};
-export default config;
-```
 
 </details>
 
@@ -1057,15 +973,5 @@ declare interface ShareInputProps {
 - Assets used in the project can be found [here](https://drive.google.com/file/d/1NCQH7HNXjfZMQ1MzpX3uRCixSY32iWl2/view?usp=sharing)
 - [Watch Next.js 15 Crash Course ](https://www.youtube.com/watch?v=Zq5fmkH0T78)
 
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsmastery.pro/next15" target="_blank">
-   <img src="https://github.com/user-attachments/assets/b8760e69-1f81-4a71-9108-ceeb1de36741" alt="Project Banner">
-</a>
 
 #
